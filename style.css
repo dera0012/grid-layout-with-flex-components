@@ -32,10 +32,44 @@ body {
   .emojis{
     display: grid;
     grid-template-columns: auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+
   }
 
 
   .emoji{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+   
+    
+  }
+
+ 
+  .icon{
+    order: 1;
+   
+  }  
+
+
+  h2{
+    order: 2;
+    
+  }
+
+
+
+  p{
+    order: 3;
+  }
+
+
+  a{
+    order: 4;
+  }
+
+  span{
+    display: flex;
+    justify-content: center;
   }
